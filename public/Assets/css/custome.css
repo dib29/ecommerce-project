@@ -1,0 +1,8 @@
+.wishlist{
+    position:absolute;
+    right:20px;
+    top: 10px;
+  }
+  .wishlist i{
+      color:gray;
+  }
