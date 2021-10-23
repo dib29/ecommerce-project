@@ -1,7 +1,7 @@
 import React from "react";
-import { Link, withRouter } from "react-router-dom";
 
 import products from "../Components/Apis/ProductApi";
+import { Link, withRouter } from "react-router-dom";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 
@@ -96,9 +96,9 @@ function ProductDescription(props) {
                     </div>
                     <div className="cart mt-4 align-items-center">
                       <Link to="/cart">
-                      <button className="btn btn-danger text-uppercase mr-2 px-4">
-                        Add to cart
-                      </button>
+                        <button className="btn btn-danger text-uppercase mr-2 px-4">
+                          Add to cart
+                        </button>
                       </Link>
 
                       <div className="cart mt-4 align-items-center">
